@@ -1,8 +1,8 @@
 //
-//  swift_weather_demoApp.swift
-//  swift-weather-demo
+//  WeatherDemoApp.swift
+//  WeatherDemo
 //
-//  Created by Adam Santillana on 1/30/23.
+//  Created by Adam Santillana on 12/14/22.
 //
 
 import SwiftUI
