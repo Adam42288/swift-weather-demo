@@ -94,6 +94,7 @@
 		0960778529887B03001DEFFC /* swift-weather-demo */ = {
 			isa = PBXGroup;
 			children = (
+				096077B029887BF7001DEFFC /* New Group */,
 				0960778629887B03001DEFFC /* swift_weather_demoApp.swift */,
 				0960778829887B03001DEFFC /* ContentView.swift */,
 				0960778A29887B04001DEFFC /* Assets.xcassets */,
@@ -125,6 +126,13 @@
 				096077A329887B04001DEFFC /* swift_weather_demoUITestsLaunchTests.swift */,
 			);
 			path = "swift-weather-demoUITests";
+			sourceTree = "<group>";
+		};
+		096077B029887BF7001DEFFC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
