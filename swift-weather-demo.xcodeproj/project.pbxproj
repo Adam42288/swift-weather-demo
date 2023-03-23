@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0925E2B029CBCFB000484C1B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0925E2AF29CBCFB000484C1B /* ModelData.swift */; };
+		0925E2B229CBD07E00484C1B /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0925E2B129CBD07E00484C1B /* weatherData.json */; };
+		0925E2B629CBD1FC00484C1B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0925E2B529CBD1FC00484C1B /* Extensions.swift */; };
 		0960778729887B03001DEFFC /* swift_weather_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0960778629887B03001DEFFC /* swift_weather_demoApp.swift */; };
 		0960778B29887B04001DEFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0960778A29887B04001DEFFC /* Assets.xcassets */; };
 		0960778E29887B04001DEFFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0960778D29887B04001DEFFC /* Preview Assets.xcassets */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0925E2AF29CBCFB000484C1B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0925E2B129CBD07E00484C1B /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		0925E2B529CBD1FC00484C1B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0960778329887B03001DEFFC /* swift-weather-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-weather-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0960778629887B03001DEFFC /* swift_weather_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_weather_demoApp.swift; sourceTree = "<group>"; };
 		0960778A29887B04001DEFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 				0960778629887B03001DEFFC /* swift_weather_demoApp.swift */,
 				0960778A29887B04001DEFFC /* Assets.xcassets */,
 				0960778C29887B04001DEFFC /* Preview Content */,
+				0925E2B529CBD1FC00484C1B /* Extensions.swift */,
 			);
 			path = "swift-weather-demo";
 			sourceTree = "<group>";
@@ -120,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				0960778D29887B04001DEFFC /* Preview Assets.xcassets */,
+				0925E2AF29CBCFB000484C1B /* ModelData.swift */,
+				0925E2B129CBD07E00484C1B /* weatherData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0960778E29887B04001DEFFC /* Preview Assets.xcassets in Resources */,
+				0925E2B229CBD07E00484C1B /* weatherData.json in Resources */,
 				0960778B29887B04001DEFFC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,8 +311,10 @@
 			files = (
 				096077B929887CD0001DEFFC /* WelcomeView.swift in Sources */,
 				096077B329887C69001DEFFC /* WeatherRow.swift in Sources */,
+				0925E2B029CBCFB000484C1B /* ModelData.swift in Sources */,
 				096077C229887D8D001DEFFC /* WeatherManager.swift in Sources */,
 				096077B629887CB2001DEFFC /* ContentView.swift in Sources */,
+				0925E2B629CBD1FC00484C1B /* Extensions.swift in Sources */,
 				096077C029887D7B001DEFFC /* LocationManager.swift in Sources */,
 				0960778729887B03001DEFFC /* swift_weather_demoApp.swift in Sources */,
 				096077BD29887CF5001DEFFC /* WeatherView.swift in Sources */,
@@ -462,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swift-weather-demo/Preview Content\"";
@@ -478,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.swift-weather-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.swift-weather-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -491,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swift-weather-demo/Preview Content\"";
@@ -507,7 +521,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.swift-weather-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.swift-weather-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
